@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a
+{
+	color: #00e200;
+	text-decoration: none;
+}
+body
+{
+    background-color: #000000;
+}
+.container
+{
+	width: 100%;
+	margin: 0 auto;
+}
+.container:after
+{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header h1
+{
+	float: left;
+	padding: 20px 1px;
+	color:  #00e200;
+    margin: 1%;
+}
+header ul
+{
+	float: right;
+    padding: 20px 1px;
+}
+header ul li
+{
+	display: inline-block;
+}
+header ul li a
+{
+	padding: 30px 35px;
+	display: inline-block;
+}
+.banner
+{
+	height: 60vh;
+	background-image: url(https://images3.alphacoders.com/600/600978.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after
+{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .6);
+}
+.banner h2
+{
+	z-index: 1;
+	padding: 20px 25px;
+}
+section
+{
+	padding: 50px 0;
+}
+section h3
+{
+	text-align: center;
+	padding: 20px 0;
+	color:#00e200;
+}
+.about p
+{
+	color:#00e200;
+	word-spacing: 2px;
+	line-height: 25px;
+    text-align: center;
+}
+.contact
+{
+	background-color:#00e200;
+}
+footer
+{
+	padding: 30px 0;
+	background-color: black;
+	color: #00e200;
+	text-align: center;
+}
